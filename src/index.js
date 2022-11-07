@@ -6,5 +6,13 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
+
+    {/* <Section>
+      <Buttons
+        options={Object.keys(this.state)}
+        onLeaveFeedback={this.handleFeedbackClick}
+      />
+    </Section>
+    <Feedback /> */}
   </React.StrictMode>
 );
