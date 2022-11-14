@@ -1,4 +1,5 @@
 import '../index.css';
+import css from './App.module.css';
 import { Notification } from './notification/Notification';
 import { Section } from './section/Section';
 import { FeedbackOptions } from 'components/feedbackOptions/FeedbackOptions.jsx';
@@ -41,7 +42,7 @@ export class App extends Component {
     const options = ['good', 'neutral', 'bad'];
 
     return (
-      <div>
+      <div className={css.container}>
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={options}
